@@ -1,0 +1,10 @@
+# Node JS dependencies
+node_modules
+**/node_modules/
+
+# Visual Studio Code configuration
+.vscode/
+
+# .env files
+.env
+**/.env
