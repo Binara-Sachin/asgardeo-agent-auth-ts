@@ -44,6 +44,7 @@ async function runAgent() {
                 if (!code) {
                     res.status(400).send("No authorization code found.");
                     Promise.reject(new Error("No authorization code found."));
+                    return;
                 }
 
                 console.log("Authorization Code received. Code: " + code);
